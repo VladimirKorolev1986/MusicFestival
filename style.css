@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero {
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .hero img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .hero-text {
+    text-align: left;
+  }
+  
+  .hero-text h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text button {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .artists {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .artist {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .artist img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .artist h3 {
+    margin-top: 10px;
+  }
+  
+  .artist .info {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+  }
+  
+  .artist:hover .info {
+    display: block;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
